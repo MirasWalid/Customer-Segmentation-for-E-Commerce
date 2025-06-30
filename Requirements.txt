@@ -1,0 +1,14 @@
+# Core data libraries
+pandas
+numpy
+
+# ML
+scikit-learn
+
+# Plotting
+matplotlib
+seaborn
+plotly
+
+# Dashboard
+streamlit
