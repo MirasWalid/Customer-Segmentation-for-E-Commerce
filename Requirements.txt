@@ -1,13 +1,13 @@
 # Core data libraries
-pandas
-numpy
+pandas==2.3.0
+numpy==2.3.1
 
 # ML
-scikit-learn
+scikit-learn==1.7.0
 
 # Plotting
-matplotlib
-seaborn
+matplotlib==3.10.3
+seaborn==0.13.2
 plotly
 
 # Dashboard
