@@ -25,6 +25,7 @@ pip install -r requirements.txt
 
 ## Launch Dashboard
 ```bash
+cd app
 streamlit run rfm_dashboard.py
 ```
 
