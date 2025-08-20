@@ -28,8 +28,6 @@ pip install -r requirements.txt
 streamlit run rfm_dashboard.py
 ```
 
----
-
 ##Project Structure
 ```
 ├── app/
