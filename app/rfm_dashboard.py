@@ -180,7 +180,14 @@ with tab6:
 with tab7:
     st.header("Export Options")
 
-    csv = df_filtered.to_csv(index=False)
-    b64 = base64.b64encode(csv.encode()).decode()
-    href = f'<a href="data:file/csv;base64,{b64}" download="rfm_export.csv">Download CSV file</a>'
-    st.markdown(href, unsafe_allow_html=True)
+    output = io.BytesIO()
+    with pd.ExcelWriter(output, engine="xlsxwriter") as writer:
+        df_filtered.to_excel(writer, index=False, sheet_name="Filtered_Data")
+    output.seek(0)
+
+    st.download_button(
+        label="Download Excel file",
+        data=output,
+        file_name="rfm_export.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
