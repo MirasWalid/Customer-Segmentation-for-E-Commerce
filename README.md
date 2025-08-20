@@ -1,18 +1,30 @@
-# Customer Segmentation with E-commerce Data
+# Customer Segmentation for E-Commerce
 
-This project demonstrates customer segmentation using clustering techniques and classification methods on e-commerce data. It also integrates text data through word embeddings and provides an interactive dashboard for insights.
+## Overview
+This project demonstrates a structured, reproducible data science workflow for customer segmentation in the e-commerce domain.  
+The workflow integrates:
 
-## Project Goals
+- **RFM Analysis** (Recency, Frequency, Monetary Value)  
+- **Clustering** (K-Means)  
+- **Classification** (KNN)  
+- **Interactive Dashboard** (Streamlit)  
 
-- Identify meaningful customer segments based on purchase behavior and text data.
-- Predict customer group membership using classification models.
-- Provide actionable insights to support marketing and customer relationship strategies.
-- Present results interactively using a dashboard.
+The approach is based on the *Online Retail II* dataset (Chen, Sain & Guo, 2012) and showcases how data-driven segmentation can support customer insights, predictive modeling, and marketing strategies.
 
-## Methods
+---
 
-- **Feature Engineering**: RFM analysis (Recency, Frequency, Monetary value), integration of text features using word embeddings.
-- **Clustering**: K-Means, Hierarchical Clustering (Dendrogram visualization).
-- **Classification**: k-NN classifier, neural network (Multi-Layer Perceptron).
-- **Visualization**: t-SNE, PCA, Dendrogram plots.
-- **Interactive Dashboard**: Built with Streamlit to explore clusters and customer insights.
+## Installation
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/MirasWalid/Customer-Segmentation-for-E-Commerce.git
+cd Customer-Segmentation-for-E-Commerce
+pip install -r requirements.txt
+
+---
+
+## Launch Dashboard
+Clone the repository and install dependencies:
+
+```bash
+streamlit run rfm_dashboard.py
