@@ -30,9 +30,8 @@ streamlit run rfm_dashboard.py
 
 ---
 
-```
 ##Project Structure
-
+```
 ├── app/
 │   └── rfm_dashboard.py               # Streamlit dashboard
 ├── data/
