@@ -28,10 +28,11 @@ pip install -r requirements.txt
 streamlit run rfm_dashboard.py
 ```
 
-##Project Structure
+---
 
+##Project Structure
 ├── app/
-├── rfm_dashboard.py                   # Streamlit dashboard
+│   └── rfm_dashboard.py               # Streamlit dashboard
 ├── data/
 │   ├── online_retail_II.xlsx          # Raw dataset
 │   ├── rfm_features_transformed.csv   # Processed RFM data
@@ -40,7 +41,9 @@ streamlit run rfm_dashboard.py
 ├── notebooks/
 │   ├── feature_engineering.py
 │   ├── clustering.py
-│   ├── classification-checkpoint.py
+│   └── classification-checkpoint.py
 ├── requirements.txt
 └── README.md
+
+
 
