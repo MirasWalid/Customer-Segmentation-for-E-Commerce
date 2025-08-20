@@ -31,6 +31,8 @@ streamlit run rfm_dashboard.py
 ---
 
 ##Project Structure
+
+```
 ├── app/
 │   └── rfm_dashboard.py               # Streamlit dashboard
 ├── data/
@@ -44,6 +46,7 @@ streamlit run rfm_dashboard.py
 │   └── classification-checkpoint.py
 ├── requirements.txt
 └── README.md
+```
 
 
 
