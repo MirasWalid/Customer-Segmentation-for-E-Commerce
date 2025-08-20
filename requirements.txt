@@ -12,3 +12,6 @@ plotly
 
 # Dashboard
 streamlit
+
+# Excel export
+xlsxwriter
