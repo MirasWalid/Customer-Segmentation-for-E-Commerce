@@ -38,9 +38,9 @@ streamlit run rfm_dashboard.py
 │   ├── rfm_clusters.csv               # Clustered data
 │   └── classification_report.json     # Model evaluation metrics
 ├── notebooks/
-│   ├── rfm_feature_engineering.py
+│   ├── feature_engineering.py
 │   ├── clustering.py
-│   ├── classification.py
+│   ├── classification-checkpoint.py
 ├── requirements.txt
 └── README.md
 
